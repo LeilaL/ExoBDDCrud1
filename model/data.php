@@ -20,7 +20,14 @@ function showType() {
     return $resultat;
 }
 
-
+// FUNCTION FOR SHOW ALL SHOWS
+function shows() {
+  $bdd = get_dataBase();
+    $donnees = $bdd->prepare('SELECT * FROM shows ORDER BY title');
+    $donnees->execute();
+    $resultat = $donnees->fetchAll(PDO::FETCH_ASSOC);
+    return $resultat;
+}
 
 
  ?>
