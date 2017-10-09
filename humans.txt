@@ -1,0 +1,12 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <name> Leila
+    <role> Developper Web
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, Bootstrap
+    Apache Server Configs, jQuery, Modernizr, Normalize.css, PHP, PHPMyAdmin, MSQL
